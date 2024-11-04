@@ -7,16 +7,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-    
-    <script>
+
+    <div data-aos="fade-up">
+  <h2>This section fades up</h2>
+</div>
+<div data-aos="fade-right">
+  <h2>This section fades right</h2>
+</div>
+
+<script>
+  AOS.init();
+</script>
+    <div>
+      <script>
       $(document).ready(function(){
         $('#myButton').click(function(){
           $('#text').css('color', 'blue').text('Hello, jQuery!');
         });
       });
     </script>
+    </div>
+    
 
-
+<div>
 <canvas id="myChart" width="400" height="200"></canvas>
 
 <script>
@@ -57,6 +70,9 @@
   });
 </script>
 
+  
+</div>
+
 
 <div id="sorted"></div>
 
@@ -72,18 +88,7 @@
   
   document.getElementById('sorted').innerHTML = JSON.stringify(sortedUsers, null, 2);
 </script>
-
-<div data-aos="fade-up">
-  <h2>This section fades up</h2>
-</div>
-<div data-aos="fade-right">
-  <h2>This section fades right</h2>
-</div>
-
-<script>
-  AOS.init();
-</script>
-    
+  
   </body>
   
 </html>
