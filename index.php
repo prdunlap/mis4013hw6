@@ -8,13 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 
-<div data-aos="fade-up">
-  <h2>This section fades up using cdnjs.cloudflare</h2>
-</div>
 
-<script>
-  AOS.init();
-</script>
 
     
     <div>
@@ -33,6 +27,14 @@
     
 
 <div>
+
+  <div data-aos="fade-up">
+  <h2>This section fades up using cdnjs.cloudflare</h2>
+</div>
+
+<script>
+  AOS.init();
+</script>
 <canvas id="myChart" width="400px" height="200px"></canvas>
 
 <script>
@@ -76,7 +78,7 @@
   
 </div>
 
-
+<div>Sorted Data by age using Lodash: </div>
 <div id="sorted"></div>
 
 <script>
