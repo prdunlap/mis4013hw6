@@ -35,6 +35,8 @@
 <script>
   AOS.init();
 </script>
+
+  <h2>It wouldn't be a libraries assignment without chart.js</h2>
 <canvas id="myChart" width="400px" height="200px"></canvas>
 
 <script>
