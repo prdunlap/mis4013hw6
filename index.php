@@ -8,16 +8,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 
-    <div data-aos="fade-up">
-  <h2>This section fades up</h2>
-</div>
-<div data-aos="fade-right">
-  <h2>This section fades right</h2>
+<div data-aos="fade-up">
+  <h2>This section fades up using cdnjs.cloudflare</h2>
 </div>
 
 <script>
   AOS.init();
 </script>
+
+    
     <div>
       <script>
       $(document).ready(function(){
