@@ -18,6 +18,10 @@
 
     
     <div>
+      <button id="myButton">Click Me!</button>
+      <p id="text">Hello World!</p>
+
+      
       <script>
       $(document).ready(function(){
         $('#myButton').click(function(){
