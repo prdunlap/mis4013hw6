@@ -33,7 +33,7 @@
     
 
 <div>
-<canvas id="myChart" width="400" height="200"></canvas>
+<canvas id="myChart" width="400px" height="200px"></canvas>
 
 <script>
   const ctx = document.getElementById('myChart').getContext('2d');
