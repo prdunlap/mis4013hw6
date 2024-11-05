@@ -37,7 +37,7 @@
 
 <style>
   #myChart {
-    max-width: 400px;
+    max-width: 500px;
     max-height: 500px;
     width: 100px;
     height: auto;
