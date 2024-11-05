@@ -1,5 +1,8 @@
 <html>
   <title>MIS 4013 HW6</title>
+
+
+  
   <body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -31,6 +34,16 @@
 </script>
 
   <h2>It wouldn't be a libraries assignment without chart.js</h2>
+
+<style>
+  #myChart {
+    max-width: 400px;
+    max-height: 500px;
+    width: 100px;
+    height: auto;
+  }
+</style>
+  
 <canvas id="myChart" width="400" height="400"></canvas>
 
 <script>
