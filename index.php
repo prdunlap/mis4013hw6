@@ -31,7 +31,7 @@
 </script>
 
   <h2>It wouldn't be a libraries assignment without chart.js</h2>
-<canvas id="myChart" width="400px" height="200px"></canvas>
+<canvas id="myChart" width="400" height="400"></canvas>
 
 <script>
   const ctx = document.getElementById('myChart').getContext('2d');
@@ -62,6 +62,8 @@
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       scales: {
         y: {
           beginAtZero: true
