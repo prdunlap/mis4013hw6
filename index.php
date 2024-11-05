@@ -83,7 +83,9 @@
   const users = [
     { 'name': 'John', 'age': 36 },
     { 'name': 'Jane', 'age': 25 },
-    { 'name': 'Kevin', 'age': 32 }
+    { 'name': 'Kevin', 'age': 32 },
+    { 'name': 'Preston', 'age': 22 },
+    { 'name': 'Patricia', 'age': 81 } 
   ];
 
   const sortedUsers = _.sortBy(users, ['age']);
