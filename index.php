@@ -7,14 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-
-
-
-    
     <div>
       <button id="myButton">Click Me!</button>
       <p id="text">Hello World!</p>
-
       
       <script>
       $(document).ready(function(){
@@ -25,7 +20,6 @@
     </script>
     </div>
     
-
 <div>
 
   <div data-aos="fade-up">
@@ -42,7 +36,7 @@
 <script>
   const ctx = document.getElementById('myChart').getContext('2d');
   const myChart = new Chart(ctx, {
-    type: 'bar', // Try changing to 'line', 'pie', etc.
+    type: 'pie',
     data: {
       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
       datasets: [{
@@ -90,7 +84,6 @@
     { 'name': 'Kevin', 'age': 32 }
   ];
 
- 
   const sortedUsers = _.sortBy(users, ['age']);
   
   document.getElementById('sorted').innerHTML = JSON.stringify(sortedUsers, null, 2);
